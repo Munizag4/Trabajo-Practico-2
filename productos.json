@@ -1,0 +1,56 @@
+[
+  {
+    "codigo": "Stick",
+
+    "descripcion": "de todos colores",
+    "imagen": "",
+    "detalle": "kdkkfjdsks",
+    "precio": "$ 1234",
+    "calificacion": "estrellas"
+  },
+
+  {
+    "codigo": "Bochas",
+    "descripcion": "de todos colores",
+    "imagen": "",
+    "detalle": "kdkkfjdsks",
+    "precio": "$ 1234",
+    "calificacion": "estrellas"
+  },
+
+  {
+    "codigo": "Grips",
+    "descripcion": "de todos colores",
+    "imagen": "",
+    "detalle": "kdkkfjdsks",
+    "precio": "$ 1234",
+    "calificacion": "estrellas"
+  },
+
+  {
+    "codigo": "Protector Bucal",
+    "descripcion": "de todos colores",
+    "detalle": "kdkkfjdsks",
+    "imagen": "",
+    "precio": "$ 1234",
+    "calificacion": "estrellas"
+  },
+
+  {
+    "codigo": "canillera",
+    "descripcion": "de todos colores",
+    "detalle": "kdkkfjdsks",
+    "imagen": "",
+    "precio": "$ 1234",
+    "calificacion": "estrellas"
+  },
+
+  {
+    "codigo": "Stick",
+    "descripcion": "de todos colores",
+    "imagen": "kkk",
+    "detalle": "kdkkfjdsks",
+    "precio": "$ 1234",
+    "calificacion": "estrellas"
+  }
+]
