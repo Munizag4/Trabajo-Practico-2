@@ -1,31 +1,19 @@
-const apiDatos = "productos.json";
-const divmostrar = document.querySelector("#info-producto");
+function mostrarProductos(){
+  fetch('productos.json')
+  .then(function(res){
+    return res.json();
+  })
+  .then(function(data){
+    let html='';
+    data.forEach(function(articulo){
 
-const getDatos = async () => {
-  const resultado = await fetch(apiDatos);
-  const datos = await resultado.json();
-  return datos;
-};
+    html += `
+    <li>
 
-const mostrarProductos = async () => {
-  const datos = await getDatos();
-
-  let mostrarDatos = datos
-    .map((object) => {
-      const { codigo, descripcion, imagen, detalle, precio, calificacion } =
-        object;
-      return `
-        <div class="container">
-        <h1> ${codigo}</h1>
-        </div>
-        <div class="container">
-        <h2> ${descripcion}</p>
-        </div>
-        <button> Info </button>
-        `;
+      <strong>${articulo.codigo}:</strong> ${articulo.descripcion} <a href="articulos.html?${articulo.id}"> +info</a> </li>`;
     })
-    .join("");
 
-  divmostrar.innerHTML = mostrarDatos;
-};
-mostrarProductos();
+   document.getElementById('lista-productos').innerHTML = html;
+  })
+}
+  mostrarProductos();

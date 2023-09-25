@@ -1,56 +1,61 @@
 [
-  {
-    "codigo": "Stick",
-
-    "descripcion": "de todos colores",
-    "imagen": "",
-    "detalle": "kdkkfjdsks",
-    "precio": "$ 1234",
+  { 
+    "id":"1",
+    "codigo": "PALO GRAYS AC7 DYNABOW ",
+    "descripcion": "Palo de Carbono: 90% carbono - 5% Kevlar - 5% Fibra Vidrio.",
+    "imagen": ".img/palo.jpg",
+    "detalle": "Todos los palos AC fueron diseñados con un núcleo de espuma, lo que brinda una sensación excepcional y una mejor distribución del peso. El AC7 Dynabow S ha sido diseñado con precisión para obtener el máximo rendimiento. Utilizando la tecnología Aerocore, la distribución del peso se controla para crear un palo ligero. El diseño angular favorece la transferencia de potencia y la nueva tecnología de mango permite una composición más rígida sin comprometer el control. El canto inferior es más grueso, para favorecer la ejecución de pases y tiros de revés.",
+    "precio": "$255.990",
     "calificacion": "estrellas"
   },
 
   {
-    "codigo": "Bochas",
-    "descripcion": "de todos colores",
-    "imagen": "",
-    "detalle": "kdkkfjdsks",
-    "precio": "$ 1234",
+    "id":"2",
+    "codigo": "BOCHAS", 
+    "imagen": ".img/bocha.jpg",
+    "descripcion": "Bochas de hockey lisa - texturada Expert Pakistán",
+    "detalle": "Material 100% polietileno. Su estructura de una sola pieza no absorbe agua ni humedad. Sirve para todo tipo de superficies. Ideal entrenamiento y partidos. Stock en varios colores (segun disponibilidad)",
+    "precio": "$ 1490,00",
     "calificacion": "estrellas"
   },
 
   {
-    "codigo": "Grips",
-    "descripcion": "de todos colores",
-    "imagen": "",
-    "detalle": "kdkkfjdsks",
-    "precio": "$ 1234",
+    "id":"3",
+    "codigo": " CUBRE GRIP REVES",
+    "descripcion": "Hockey over grip Reves, mejor agarre. ",
+    "imagen": ".img/cubre-grip.jpg",    
+    "detalle": "Además de aportarle un look único a tu palo, el overgrip te permite tener un agarre mas fuerte ante la humedad del grip evitando sudoración excedente en las manos.Al mismo tiempo, el overgrip minimiza las vibraciones de los golpes durante el partido o los entrenamientos.",
+    "precio": "$4.500",
     "calificacion": "estrellas"
   },
 
   {
-    "codigo": "Protector Bucal",
-    "descripcion": "de todos colores",
-    "detalle": "kdkkfjdsks",
-    "imagen": "",
-    "precio": "$ 1234",
+    "id":"4",
+    "codigo": "CAMISETA",
+    "descripcion": "Camiseta de Las Leonas Under Armour oficial authentic mujer celeste",
+    "imagen": ".img/camiseta.jpg",
+    "detalle":"Camiseta inspirada en la historia de los seleccionados, su esfuerzo y herencia. Una camiseta hecha en Argentina, que se destaca por su diseño, innovación y tecnología. Rinde homenaje a una historia llena de gloria y triunfo, con un diseño de laureles inspirado en la primera copa del mundo obtenida por el seleccionado femenino en Perth 2002. La tecnología Heatgear es un tejido súper transpirable que absorbe el sudor y regula la temperatura del cuerpo para que te sientas más fresca, seca y ligera que nunca.    Logo y escudo de Las Leonas estampado.",
+    "precio": "$ 24.999",
+    "calificacion": "estrellas"
+  },
+ 
+  {
+    "id":"5",
+    "codigo": "CANILLERAS GRYPHON",
+    "descripcion": "Canilleras de hockey Gryphon anatómica blanca", 
+    "imagen": ".img/canilleras.jpg",
+    "detalle": "Especialmente diseñadas para jugadores de hockey. Su forma anatómica brinda máxima protección a la pierna, tanto en el frente como en los laterales. Talles XSmall, Small, Médium y Large.",
+    "precio": "$ 26.999",
     "calificacion": "estrellas"
   },
 
   {
-    "codigo": "canillera",
-    "descripcion": "de todos colores",
-    "detalle": "kdkkfjdsks",
-    "imagen": "",
-    "precio": "$ 1234",
-    "calificacion": "estrellas"
-  },
-
-  {
-    "codigo": "Stick",
-    "descripcion": "de todos colores",
-    "imagen": "kkk",
-    "detalle": "kdkkfjdsks",
-    "precio": "$ 1234",
+    "id":"6",
+    "codigo" : "POLLERA",
+    "descripcion": "Pollera hockey con calza niña ",
+    "imagen": ".img/pollera.jpg",
+    "detalle": "Pollera-Calza Deportiva para Hockey con cintura elastizada para mujer y niña. Está fabricada 100% en poliéster, por lo que es liviana, cómoda y de secado rápido. Su diseño permite realizar movimientos libres, sin restricciones. Disponible en varios colores.",
+    "precio": "$ 10.900",
     "calificacion": "estrellas"
   }
 ]
