@@ -22,10 +22,9 @@ function buscarArticulo(){
             <div class="alert alert-primary" role="alert">${articulo.codigo}</div>
             <div class="alert alert-info" role="alert">${articulo.descripcion}</div>
             <div class="alert alert-success" role="alert">${articulo.detalle}</div>
-            <div class="precio">${articulo.precio}</div>            
+                      
             <img class="card-img-top"  src="${articulo.imagen}" alt="${articulo.codigo}" ;>            
-            </div>
-            
+            <div class="precio" >${articulo.precio}</div>  
             
             `
             document.getElementById('detalle-producto').innerHTML = html;
