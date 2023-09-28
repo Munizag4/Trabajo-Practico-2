@@ -1,30 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Tenor+Sans&display=swap");
 
 * {
- 
   margin: 0;
-  padding: 0; 
+  padding: 0;
   box-sizing: border-box;
-
 }
 
-.encabezado{
+.encabezado {
   margin-top: 2em;
-  text-align: center;
- background-color: rgb(62, 126, 126);
+  /* background-color: rgb(127, 176, 161);
+  background-size: cover; */
+  /* background-image : linear-gradient( 135deg, #5bc95b 10%, #49C628 100%); */
+  background-image: url(../img/fondo1.jpg);
+  height: 500px;
   background-size: cover;
-
-  
-  }
-
-h1, h2{
-  text-shadow: 1px 2px 2px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
 }
- 
 
- 
-
- h2{
+h1 {
+  font-size: 4em;
+  font-family: 'Sedgwick Ave Display', sans-serif;
+  text-shadow: 2px 2px 2px rgb(2, 37, 17);
+  margin-top: 1em;
+}
+/* h2{
   margin: 2em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
  }
+   */
+
+li {
+  list-style: none;
+  margin: 4em;
+}
