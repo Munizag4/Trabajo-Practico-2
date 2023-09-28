@@ -22,9 +22,8 @@ function buscarArticulo(){
             <div class="alert alert-primary" role="alert">${articulo.codigo}</div>
             <div class="alert alert-info" role="alert">${articulo.descripcion}</div>
             <div class="alert alert-success" role="alert">${articulo.detalle}</div>
-            <div>${articulo.precio}</div>
-            <div class="card" style="width: 18rem;" >
-            <img class="card-img-top" src="${articulo.imagen}" alt="${articulo.codigo}" margin-bottom: 20px;>            
+            <div class="precio">${articulo.precio}</div>            
+            <img class="card-img-top"  src="${articulo.imagen}" alt="${articulo.codigo}" ;>            
             </div>
             
             
