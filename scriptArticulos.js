@@ -10,7 +10,7 @@ function buscarArticulo(){
          
         listaArticulos = JSON.parse(listaArticulos);
         let articulo ="";
-        let html ="";
+        let html =""; 
         listaArticulos.forEach(function(obj){
             if(obj.id == idArticulo){
                 articulo = obj;
@@ -21,10 +21,10 @@ function buscarArticulo(){
             html += `
             <div class="alert alert-primary" role="alert">${articulo.codigo}</div>
             <div class="alert alert-info" role="alert">${articulo.descripcion}</div>
-            <div class="alert alert-success" role="alert">${articulo.detalle}</div>
-                      
+            <div class="alert alert-success" role="alert">${articulo.detalle}</div>                   
             <img class="card-img-top"  src="${articulo.imagen}" alt="${articulo.codigo}" ;>            
             <div class="precio" >${articulo.precio}</div>  
+            <div class="calificacion" >${articulo.calificacion}</div> 
             
             `
             document.getElementById('detalle-producto').innerHTML = html;
