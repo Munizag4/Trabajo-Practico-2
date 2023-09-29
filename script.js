@@ -1,7 +1,7 @@
-function mostrarProductos(){
-  fetch('productos.json')
-  .then(function(res){
-    return res.json();
+ async function mostrarProductos(){
+  await fetch('productos.json')
+  .then(async function(res){
+    return await res.json();
   })
   .then(function(data){
     localStorage.setItem('listaArticulos', JSON.stringify(data));

@@ -7,24 +7,31 @@
   box-sizing: border-box;
  
 }
-
+/* index.html */
 .encabezado {
   margin-top: 2em;
   background-image: url(../img/fondo1.jpg);
   height: 500px;
   background-size: cover;
   display: flex;
-  flex-direction: column;
+ flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
   text-align: center;
-}
+ }
 
 h1 {
+  font-weight: 600;
   font-family: 'Sedgwick Ave Display', sans-serif;
-  text-shadow: 2px 2px 2px rgb(2, 37, 17);
+  text-shadow: 2px 2px 2px rgb(139, 187, 160);
   margin-top: 1em;
+}
+.palo{
+  font-size: 7em;
+}
+.bocha{
+  font-size: 3em;
+
 }
 
 li {
