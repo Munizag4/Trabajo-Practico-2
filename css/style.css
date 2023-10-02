@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Francois+One&family=Sedgwick+Ave+Display&family=Tenor+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Francois+One&family=Sedgwick+Ave+Display&family=Tenor+Sans&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Tenor+Sans&display=swap");
-
 
 * {
   margin: 0;
@@ -11,55 +10,52 @@
 }
 /* index.html */
 header {
- border: 10px #efafaf solid;
+  border: 10px #efafaf solid;
 }
 .encabezado {
- background-image: url(../img/fondo1.jpg);
- min-height: 500px;
+  background-image: url(../img/fondo1.jpg);
+  min-height: 700px;
   background-size: cover;
-   box-shadow: 0 4px 8px 0 black;
+  box-shadow: 0 4px 8px 0 black;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 h1 {
-  color:#080230 ;
+  color: #080230;
   font-size: 5.5em;
   font-family: "Sedgwick Ave Display";
   text-shadow: 2px 2px 2px #efafaf;
   margin-left: 1em;
   padding-top: 1em;
   text-align: left;
-}  
+}
 h2 {
   color: #efafaf;
-  text-shadow: 4px 3px 3px  rgb(5, 6, 32);
-  font-size: 3em;
-  margin-left: 3em;
-margin-right: 3em;
-margin-top: 1.5em;  }
+  text-shadow: 4px 3px 3px rgb(5, 6, 32);
+  font-size: 3.5em;
+  backdrop-filter: blur(5px);
+  margin: 1.5em 5em 1em 5em;
+}
 
 /*lista*/
 
 li {
   list-style: none;
-  font-size: 1.5em !important;
- 
-align-content: flex-end;
+  font-size: 1.5em;
+  line-height: 4;
 }
-  
-
 
 .section-prod {
   background-color: rgb(90, 168, 217);
   background-image: url(../img/jugadora.jpg);
+  min-height: 600px;
   background-position: right;
   background-repeat: no-repeat;
   box-shadow: 0 4px 8px 0 black;
-  margin: 3em 0 3em 0;
+  margin: 3em 0.98em 3em 0.98em;
   padding-left: 1.5em;
-
 }
 
 /*articulos.hmtl*/
@@ -83,9 +79,9 @@ align-content: flex-end;
   margin: 0.5rem;
 }
 .precio {
-  color: rgb(6, 11, 94);
-  text-shadow: 3px 3px 2px #fff;
-  font-size: 3em;
+  color: rgb(5, 6, 32);
+  text-shadow: 3px 3px 2px #efafaf;
+  font-size: 2.5em;
   font-weight: 500;
 }
 
@@ -97,4 +93,76 @@ footer {
   padding: 1rem;
   margin-top: 1rem;
   border-top: 10px #efafaf solid;
+}
+
+@media screen and (max-width: 400px) {
+  /*index.html*/
+  .encabezado {
+    box-shadow: 0 4px 8px 0 black;
+    min-height: 300px;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 1.03em;
+    text-shadow: 2px 2px 2px rgb(5, 6, 32);
+    backdrop-filter: blur(5px);
+  }
+  li {
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 6, 32);
+    text-shadow: 2px 1px 1px #efafaf;
+    line-height: 2.5;
+  }
+
+  /*articulos.hmtl*/
+
+  /* h1.display-4 {
+    text-align: center;
+    margin: 15px;
+    padding-top: 5px;
+  } */
+}
+
+@media screen and (max-width: 720px) {
+  .encabezado {
+    box-shadow: 0 4px 8px 0 black;
+    min-height: 350px;
+  }
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px rgb(5, 6, 32);
+    backdrop-filter: blur(5px);
+  }
+  li {
+    font-size: 0.87em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 6, 32);
+    text-shadow: 2px 1px 1px #efafaf;
+    line-height: 7;
+  }
+
+  .section-prod {
+    background-image: none;
+    margin: 10px;
+  }
+}
+
+/*articulos.hmtl*/
+
+.header-detalles {
+  border: 0;
+  }
+#detalle-producto {
+  font-size: 1.5em;
+}
+#estrellas {
+  font-size: 2em;
+  margin-bottom: 2.5em;
 }
