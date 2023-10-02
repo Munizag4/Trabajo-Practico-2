@@ -1,45 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Francois+One&family=Sedgwick+Ave+Display&family=Tenor+Sans&display=swap');
+
 @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Tenor+Sans&display=swap");
+
 
 * {
   margin: 0;
-  margin-top: 20px;
   padding: 0;
   box-sizing: border-box;
- 
+  font-family: "Francois One", sans-serif;
 }
 /* index.html */
+header {
+ border: 10px #efafaf solid;
+}
 .encabezado {
-  margin-top: 2em;
-  background-image: url(../img/fondo1.jpg);
-  height: 500px;
+ background-image: url(../img/fondo1.jpg);
+ min-height: 500px;
   background-size: cover;
-  display: flex;
- flex-direction: column;
+   box-shadow: 0 4px 8px 0 black;
   justify-content: center;
   align-items: center;
   text-align: center;
- }
+}
 
 h1 {
-  font-weight: 600;
-  font-family: 'Sedgwick Ave Display', sans-serif;
-  text-shadow: 2px 2px 2px rgb(139, 187, 160);
-  margin-top: 1em;
-}
-.palo{
-  font-size: 7em;
-}
-.bocha{
+  color:#080230 ;
+  font-size: 5.5em;
+  font-family: "Sedgwick Ave Display";
+  text-shadow: 2px 2px 2px #efafaf;
+  margin-left: 1em;
+  padding-top: 1em;
+  text-align: left;
+}  
+h2 {
+  color: #efafaf;
+  text-shadow: 4px 3px 3px  rgb(5, 6, 32);
   font-size: 3em;
+  margin-left: 3em;
+margin-right: 3em;
+margin-top: 1.5em;  }
 
-}
+/*lista*/
 
 li {
   list-style: none;
-  margin: 4em;
+  font-size: 1.5em !important;
+ 
+align-content: flex-end;
+}
+  
+
+
+.section-prod {
+  background-color: rgb(90, 168, 217);
+  background-image: url(../img/jugadora.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 black;
+  margin: 3em 0 3em 0;
+  padding-left: 1.5em;
+
 }
 
-.body-detalles{
+/*articulos.hmtl*/
+
+.body-detalles {
   background-image: url(../img/fondo1.jpg);
   height: 100%;
   background-size: cover;
@@ -47,20 +72,29 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center; 
+  text-align: center;
 }
 
-.card-img-top{
+.card-img-top {
   box-shadow: 0 4px 8px 0 black;
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    margin: 0.5rem;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  margin: 0.5rem;
 }
-.precio{
+.precio {
   color: rgb(6, 11, 94);
   text-shadow: 3px 3px 2px #fff;
-    font-size: 3em;
-    font-weight: 500;
-    
+  font-size: 3em;
+  font-weight: 500;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(1, 6, 15);
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-top: 10px #efafaf solid;
 }
