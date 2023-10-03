@@ -49,11 +49,7 @@ li {
 
 .section-prod {
   background-color: rgb(90, 168, 217);
-  background-image: url(../img/jugadora.jpg);
-  background-size: 600px 300px;
   min-height: 200px;
-  background-position: right;
-  background-repeat: no-repeat;
   box-shadow: 0 4px 8px 0 black;
   margin: 3em 0.98em 3em 0.98em;
   padding-left: 1.5em;
@@ -147,7 +143,6 @@ footer {
   }
 
   .section-prod {
-  background-image: none;
     margin: 10px;
   }
 }
