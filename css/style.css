@@ -50,7 +50,8 @@ li {
 .section-prod {
   background-color: rgb(90, 168, 217);
   background-image: url(../img/jugadora.jpg);
-  min-height: 600px;
+  background-size: 600px 300px;
+  min-height: 200px;
   background-position: right;
   background-repeat: no-repeat;
   box-shadow: 0 4px 8px 0 black;
@@ -95,14 +96,14 @@ footer {
   border-top: 10px #efafaf solid;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   /*index.html*/
   .encabezado {
     box-shadow: 0 4px 8px 0 black;
-    min-height: 300px;
+    min-height: 200px;
   }
   h1 {
-    font-size: 3em;
+    font-size: 2em;
   }
   h2 {
     font-size: 1.03em;
@@ -114,19 +115,12 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(5, 6, 32);
     text-shadow: 2px 1px 1px #efafaf;
-    line-height: 2.5;
+    line-height: 1;
   }
 
-  /*articulos.hmtl*/
+  }
 
-  /* h1.display-4 {
-    text-align: center;
-    margin: 15px;
-    padding-top: 5px;
-  } */
-}
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1024px) {
   .encabezado {
     box-shadow: 0 4px 8px 0 black;
     min-height: 350px;
@@ -134,22 +128,26 @@ footer {
   h1 {
     font-size: 3em;
     text-align: center;
+    margin-left: 0;
   }
   h2 {
     font-size: 1.5em;
     text-shadow: 2px 2px 2px rgb(5, 6, 32);
     backdrop-filter: blur(5px);
+    padding: 0;
+    margin: 0
+    ;
   }
   li {
     font-size: 0.87em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(5, 6, 32);
     text-shadow: 2px 1px 1px #efafaf;
-    line-height: 7;
+    line-height: 2.5em;
   }
 
   .section-prod {
-    background-image: none;
+  background-image: none;
     margin: 10px;
   }
 }
